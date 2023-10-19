@@ -22,3 +22,4 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/sample', [App\Http\Controllers\HomeController::class, 'sample'])->name('sample');
 Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'dashboard'])->name('dashboard');
+Route::get('/icon', [App\Http\Controllers\HomeController::class, 'icon'])->name('icon');

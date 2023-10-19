@@ -109,7 +109,7 @@
                             <span class="hide-menu">EXTRA</span>
                         </li>
                         <li class="sidebar-item">
-                            <a class="sidebar-link" href="./icon-tabler.html" aria-expanded="false">
+                            <a class="sidebar-link" href="{{ route('icon') }}" aria-expanded="false">
                                 <span>
                                     <i class="ti ti-mood-happy"></i>
                                 </span>
@@ -203,9 +203,12 @@
             <div class="container-fluid">
 
                 @yield('content-1')
+                @yield('content-2')
+                @yield('content-3')
 
-                <div class="text-right">
-                    <small class="mb-4 fs-2">-- dk --</small>
+                <div class="text-end">
+                    <small class="mb-4 fs-3"><img src="../assets/images/logos/leaf.svg" width="15"
+                            alt="" /> dk</small>
                 </div>
             </div>
         </div>
