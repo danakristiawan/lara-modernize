@@ -40,4 +40,9 @@ class HomeController extends Controller
     {
         return view('icon');
     }
+
+    public function rekening()
+    {
+        return view('rekening');
+    }
 }
